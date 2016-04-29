@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Eclipse Example</title>
+
+    <!-- stylesheet -->
+    <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="assets/css/box.css" type="text/css" rel="stylesheet"/>
+    <link href="assets/css/upload.css" type="text/css" rel="stylesheet"/>
+    
+    <!-- Angularjs Lib Jqueryjs-->
+    <script type="text/javascript" src="assets/js/jquery-1.12.0.min.js"></script>
+    <script type="application/javascript" src="angularLib/angular.min.js"></script>
+    <script type="application/javascript" src="angularLib/angular-route.min.js"></script>
+    <script type="application/javascript" src="angularLib/angular-resource.min.js"></script>
+    <script type="application/javascript" src="assets/js/msl-uploads.js"></script>
+    <!-- DataTable -->
+  	
+    <!-- Controllers-->
+    <script type="application/javascript" src="angularLib/mainController.js"></script>
+    <script type="application/javascript" src="view/home/homeController.js"></script>
+    <script type="application/javascript" src="view/demystifying/demystifyingController.js"></script>
+    <script type="application/javascript" src="view/fileupload/fileuploadController.js"></script>
+    <script type="application/javascript" src="view/imageupload/imageController.js"></script>
+    <!-- Services -->
+    <script type="application/javascript" src="angularLib/mainService.js"></script>
+
+    <!-- Directives -->
+   <script type="text/javascript" src="directive/homeDirective.js"></script>
+    <script type="text/javascript" src="directive/demystifyingDirective.js"></script>
+    <script type="text/javascript" src="directive/msl-file-inputDirective.js"></script>
+</head>
+<body>
+    <div ng-view="">
+
+    </div>
+</body>
+</html>

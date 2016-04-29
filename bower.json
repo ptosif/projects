@@ -1,0 +1,9 @@
+{
+    "name": "angularstyle",
+    "version": " 1.7.9",
+    "dependencies": {
+        "angular":          "1.4.3",
+        "jquery":           "1.12.0"
+    },
+    "analytics": false
+}
